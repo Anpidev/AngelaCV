@@ -1,0 +1,80 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif; /* Usamos una fuente simple y legible */
+    background-color: #f5f5f5; /* Fondo gris claro para toda la página */
+    color: #333; /* El texto será de color gris oscuro para que se lea fácilmente */
+    margin: 0; /* Eliminamos el margen predeterminado */
+    padding: 0; /* Eliminamos el padding predeterminado */
+    box-sizing: border-box; /* Aseguramos que los elementos usen el tamaño correcto al contar los bordes y el padding */
+}
+
+/* Estilo para el encabezado (nombre y foto) */
+header {
+    background-color: #dcdcdc; /* Fondo gris más oscuro para el encabezado */
+    color: #333; /* El texto en el encabezado será de color gris oscuro */
+    padding: 20px; /* Espaciado dentro del encabezado */
+    text-align: center; /* Alineamos el contenido en el centro */
+}
+
+header img {
+    border-radius: 50%; /* Hacemos que la foto sea circular */
+    margin-top: 10px; /* Le damos un pequeño espacio por encima de la imagen */
+}
+
+/* Estilo para cada sección de la página */
+section {
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+    margin: 20px auto; /* Márgenes automáticos para centrar las secciones */
+    padding: 20px; /* Espaciado dentro de las secciones */
+    width: 90%; /* El ancho de las secciones será el 90% de la pantalla */
+    max-width: 900px; /* No se expandirá más allá de 900px de ancho */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor de las secciones para dar profundidad */
+}
+
+/* Estilo para los títulos de las secciones */
+h2 {
+    color: #666; /* Usamos un gris más suave para los subtítulos */
+    text-align: center; /* Alineamos los subtítulos en el centro */
+}
+
+/* Estilo para las listas */
+ul {
+    padding: 0; /* Eliminamos el padding de las listas */
+    list-style-type: none; /* Quitamos los puntos de la lista */
+}
+
+ul li {
+    background-color: #f9f9f9; /* Fondo muy claro para cada ítem de la lista */
+    margin: 8px 0; /* Espaciamos los ítems entre sí */
+    padding: 8px; /* Espaciado dentro de cada ítem */
+    border-radius: 4px; /* Esquinas redondeadas para los ítems */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Sombra suave para dar un toque de profundidad */
+}
+
+
+/* Estilo para las redes sociales (iconos) */
+#redes ul {
+    display: flex; /* Usamos flexbox para alinear los íconos de redes sociales en fila */
+    justify-content: center; /* Centramos los íconos */
+    gap: 20px; /* Dejamos un espacio entre los íconos */
+}
+
+#redes ul li {
+    display: inline-block; /* Mostramos cada ícono como un bloque en línea */
+}
+
+#redes img {
+    width: 30px; /* Los íconos tendrán un tamaño de 30px */
+    height: 30px; /* Los íconos tendrán un tamaño de 30px */
+}
+
+/* Estilo para mejorar el aspecto de las secciones de experiencia y descripción */
+#empresas, #descripcion {
+    margin-bottom: 20px; /* Añadimos un espacio al final de estas secciones */
+}
+
+/* Estilo para los márgenes de las secciones principales */
+#encabezado, #personal, #educacion, #otros, #redes {
+    margin-bottom: 20px; /* Espacio entre las secciones */
+}
